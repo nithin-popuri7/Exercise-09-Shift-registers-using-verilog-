@@ -99,11 +99,14 @@ endmodule
 
 
 ### RTL LOGIC  REGISTERS:
+### SIPO:
 ![github.logo](exp9.png)
 
-![github.logo](exp9.2.png)
+### PISO:
+![github.logo](exp9.1.png)
 
-![github.logo](exp9.3.png)
+### PIPO:
+![github.logo](exp9.2.png)
 
 
 
@@ -112,14 +115,18 @@ endmodule
 
 
 ### TIMING DIGRAMS FOR SHIFT REGISTERS:
+### SIPO:
 ![github.logo](td.png)
 
+### PISO:
 ![github.logo](td2.png)
 
+### PIPO:
 ![github.logo](td2.png)
 
 
 
 
 
-### RESULTS 
+### RESULTS:
+Therefore PISO,PIPO,PISO are implemented succesfully using verilog and validated their functionality using their functional tables.
