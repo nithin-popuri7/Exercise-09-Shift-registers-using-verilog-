@@ -53,6 +53,7 @@ RegisterNumber:212221240037
 
 ```
 ### SIPO:
+```
 module sipo(si,clk,po);
 input si,clk;
 output [0:7]po;
@@ -63,8 +64,9 @@ temp = {temp[0:6],si};
 end
 assign po=temp;
 endmodule
-
+```
 ### PISO:
+```
 module sipo(Clk, Parallel_In,load, Serial_Out);
 input Clk,load;
 input [3:0]Parallel_In;
@@ -81,8 +83,9 @@ tmp<={tmp[2:0],1'b0};
 end
 end
 endmodule
-
+```
 ### PIPO:
+```
 module sipo(pi,clk,po);
 input clk;
 input[3:0]pi;
@@ -92,22 +95,28 @@ begin
 po = pi;
 end 
 endmodule
+```
 
 
-### RTL LOGIC  REGISTERS   
+### RTL LOGIC  REGISTERS:
+![github.logo](exp9.png)
 
+![github.logo](exp9.2.png)
 
-
-
-
-
-
-
-
-### TIMING DIGRAMS FOR SHIFT REGISTERS
+![github.logo](exp9.3.png)
 
 
 
+
+
+
+
+### TIMING DIGRAMS FOR SHIFT REGISTERS:
+![github.logo](td.png)
+
+![github.logo](td2.png)
+
+![github.logo](td2.png)
 
 
 
